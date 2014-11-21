@@ -1,0 +1,265 @@
+body {font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#wrapper{width:90%;
+	min-width:1000px;
+	min-height:800px;
+	margin:0 auto;
+}
+	header{
+		background-color:#e6e6e6;	
+		width:100%;	
+		padding:2px auto;
+		height:150px;
+		font-size:150%;
+		}
+			header  #mynameOccupation{float:left;						
+					color:#666666;
+					min-width:40%;
+					height:100%;
+					margin:auto 3px;
+			}
+				header   a{text-decoration:none;
+					color:#666666;				
+					}
+					header  #mynameOccupation h2 {
+						position:relative;
+						left:70px;
+						top:10px;
+
+					}					
+					header  #mynameOccupation p {
+						color: #999999;
+						position:relative;
+						left:30px;
+					
+					}
+			#contentContainer{background-color:#e6e6e6;
+				width:100%;
+				height:650px;
+				margin:0 auto;
+			}
+				#leftSection{float:left;					
+					width:36%;
+					height:96%;
+					//margin:3px 3px;
+				}
+				#leftSection img{width:300px;
+								height:300px;
+								position:relative;
+								top:90px;
+								left:40px;
+				}
+				#rightSection{float:left;					
+					width:62%;
+					height:96%;
+					color:#666666;
+					margin:3px 3px;
+				}
+					#rightSection h1{position:relative;
+							top:20px;
+							left:30px;
+							font-size:200%;	
+							width:95%;
+					}
+					#rightSection p{position:relative;
+							left:30px;
+							top:5px;
+							width:95%;
+					}
+					
+						.buttons {position:relative;
+							left:30px;
+							top:75px;
+							width:130px;
+							height:130px;
+							background-color:#ff6666;														
+							text-align: center;							
+							padding:30px 10px;
+							margin-right:50px;
+							font-size:120%;					
+							border-radius:65px;
+							border: none;
+						    box-shadow: 3px 3px 2px #ff9999;
+
+						}
+							.buttons a{color:#99ffcc;
+									text-decoration: none;
+							}
+					
+					
+							.buttons:hover {background-color:#ff9999;
+						
+							}
+							.buttons:active {background-color:#e6ffcc;
+						
+							}
+						#briefSelfIntroduction{position:relative;
+												width:85%;
+												left:10px;
+												top:100px;
+						}
+					
+					#contactContainer{background-color:#e6e6e6;
+										width:100%;
+										height:560px;
+										margin:0 auto;
+					}	
+						#contactLeftSection{float:left;
+										width:42%;
+						}
+							#contact-left{color:#ffffcc;
+									font-size:80px;
+									text-align:center;
+									position:relative;
+									top:50px;
+							}
+						#contactRightSection{float:left;
+						               width:55%;
+						}
+							#contactRightSection p{position:relative;
+												left:50px;
+												top:60px;
+							}
+							.contact-form{position:relative;
+										left:50px;
+										top:80px;
+										margin:10px auto;					
+							}
+							.contact-form input{color:#999999;
+											background-color:#ffffcc;
+							}
+							.contact-form textarea{color:#999999;
+											background-color:#ffffcc;
+							}				
+					
+			          
+					#resume-contentContainer{background-color:#e6e6e6;
+												width:100%;
+												height:1500px;
+												margin:0 auto;
+												color: #999999;
+					}
+						#resume-leftSection{float:left;											
+											width:75%;
+											height:96%;
+											font-size:14px;
+											margin:0 auto;
+						}
+							#resume-leftSection  h1{position:relative;
+												left:5px;
+												text-align:center;
+												width:90%;
+												color:#ffffcc;
+												font-size:60px;
+												border-bottom:2px solid #ffffcc;							
+							}
+							.myResume{position:relative;
+									left:30px;
+									width:80%;
+									height:30%;									
+									border-bottom:1px solid #ffffcc;						
+							}
+							.myResume .myResume-image{float:left;
+												position:relative;
+												top:3px;
+												width:25%;
+												
+							}
+							.myResume .myResume-content{float:left;
+										position:relative;
+										top:15px;
+										left:8px;
+										width:72%;
+										}						
+						#resume-rightSection{float:left;											
+											width:22%;
+											height:96%;
+											margin:0 auto;
+						}
+							#resume-rightSection #skillsImage{position:relative;
+															left:15px;
+															top:80px;
+															height:8%;
+							}
+							#resume-rightSection #skills{position:relative;
+												left:15px;
+												top:20px;
+							}
+				#projectContainer{background-color:#e6e6e6;
+							width:100%;
+							height:800px;							
+							margin:0 auto;
+							color:#999999;
+							font-size:14px;
+				}
+					#projectHeading {position:relative;
+									left:25px;
+									color:#ffffcc;
+									font-size:60px;
+									width:96%;
+									height:80px;
+									text-align:center;
+									padding:10px auto;
+									border-bottom:2px solid #ffffcc;
+					}					
+					#projectLeftSection{float:left;									
+									width:58%;
+									height:55%;									
+									margin:0 auto;
+									border-bottom:1px solid #ffffcc;
+					}
+						#projectLeftSection img{
+						position:relative;
+						left:40px;
+						top:10px;}
+						
+					#projectRightSection{float:left;									
+									width:40%;
+									height:55%;									
+									margin:0 auto;
+									border-bottom:1px solid #ffffcc;
+					}					
+						
+					
+	footer{background-color:#ff6666;
+		color:white;
+		width:100%;
+		height:150px;
+	}
+		.contact{float:left;
+				position:relative;
+				top:30px;					
+				width:22%;
+				height:75%;	
+				text-align:center;
+				padding-right:20px;	
+		}
+				.contact img{vertical-align:text-top;
+				}
+				.contact li{display:inline;
+						margin-right:3px;
+				}
+	nav{float:left;
+	width:58%;
+	background-color:#e6e6e6;	
+	height:100%;
+	padding-right:8px;
+	font-size:20px;
+	}
+	nav li{display:inline;
+	background-color:none;	
+    position:relative;
+    bottom:-90px;
+	left:100px;
+	//border-bottom:1px solid black;
+	}
+	
+	nav a{padding:0px 12px;
+	     text-decoration:none;
+	}
+
+nav a:link{color:#ffffcc;}
+nav a:visited{color:#99ffcc;}
+nav a:hover{background-color:#99ffcc;
+	    color:#ff9999;}
